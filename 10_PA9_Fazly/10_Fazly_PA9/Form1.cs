@@ -21,7 +21,7 @@ namespace _10_Fazly_PA9
         {
             try
             {
-                double amount, converted, usRate = 0.74, jpRate = 81.97;
+                double amount, converted, usRate = 0.74, jpRate = 81.97, ringgitRate = 3.01;
                 amount = double.Parse(txt_Amount.Text);
                 if (rb_US.Checked)
                 {
@@ -31,6 +31,12 @@ namespace _10_Fazly_PA9
                 else if (rb_Yen.Checked)
                 {
                     converted = amount * jpRate;
+                    txt_Converted.Text = converted.ToString();
+                }
+
+                else if (rb_Ringgit.Checked)
+                {
+                    converted = amount * ringgitRate;
                     txt_Converted.Text = converted.ToString();
                 }
             }
@@ -46,6 +52,12 @@ namespace _10_Fazly_PA9
             txt_Converted.Text = "";
             rb_US.Checked = false;
             rb_Yen.Checked = false;
+            rb_Ringgit.Checked = false;
+        }
+
+        private void rb_US_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

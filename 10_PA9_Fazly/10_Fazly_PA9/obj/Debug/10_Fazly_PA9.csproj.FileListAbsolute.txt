@@ -8,3 +8,13 @@ C:\Users\itsju\Desktop\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.csproj.G
 C:\Users\itsju\Desktop\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.csproj.CoreCompileInputs.cache
 C:\Users\itsju\Desktop\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.exe
 C:\Users\itsju\Desktop\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.pdb
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\bin\Debug\10_Fazly_PA9.exe.config
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\bin\Debug\10_Fazly_PA9.exe
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\bin\Debug\10_Fazly_PA9.pdb
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.csprojAssemblyReference.cache
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\_10_Fazly_PA9.Form1.resources
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\_10_Fazly_PA9.Properties.Resources.resources
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.csproj.GenerateResource.cache
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.csproj.CoreCompileInputs.cache
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.exe
+C:\Users\raimi\OneDrive\Desktop\10_PA9_Fazly\10_PA9_Fazly\10_Fazly_PA9\obj\Debug\10_Fazly_PA9.pdb
