@@ -37,54 +37,61 @@
             this.btn_Clear = new System.Windows.Forms.Button();
             this.rb_US = new System.Windows.Forms.RadioButton();
             this.rb_Yen = new System.Windows.Forms.RadioButton();
+            this.rb_Ringgit = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(92, 68);
+            this.label1.Location = new System.Drawing.Point(123, 84);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.Size = new System.Drawing.Size(56, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Amount";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 131);
+            this.label2.Location = new System.Drawing.Point(71, 161);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.Size = new System.Drawing.Size(108, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Select Currency";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 236);
+            this.label3.Location = new System.Drawing.Point(53, 290);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 13);
+            this.label3.Size = new System.Drawing.Size(125, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Converted Amount";
             // 
             // txt_Amount
             // 
-            this.txt_Amount.Location = new System.Drawing.Point(163, 65);
+            this.txt_Amount.Location = new System.Drawing.Point(217, 80);
+            this.txt_Amount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Amount.Name = "txt_Amount";
-            this.txt_Amount.Size = new System.Drawing.Size(206, 20);
+            this.txt_Amount.Size = new System.Drawing.Size(273, 22);
             this.txt_Amount.TabIndex = 3;
             // 
             // txt_Converted
             // 
-            this.txt_Converted.Location = new System.Drawing.Point(163, 233);
+            this.txt_Converted.Location = new System.Drawing.Point(217, 287);
+            this.txt_Converted.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Converted.Name = "txt_Converted";
-            this.txt_Converted.Size = new System.Drawing.Size(206, 20);
+            this.txt_Converted.Size = new System.Drawing.Size(273, 22);
             this.txt_Converted.TabIndex = 4;
             // 
             // btn_Convert
             // 
-            this.btn_Convert.Location = new System.Drawing.Point(394, 187);
+            this.btn_Convert.Location = new System.Drawing.Point(525, 230);
+            this.btn_Convert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Convert.Name = "btn_Convert";
-            this.btn_Convert.Size = new System.Drawing.Size(75, 23);
+            this.btn_Convert.Size = new System.Drawing.Size(100, 28);
             this.btn_Convert.TabIndex = 5;
             this.btn_Convert.Text = "Convert";
             this.btn_Convert.UseVisualStyleBackColor = true;
@@ -92,9 +99,10 @@
             // 
             // btn_Clear
             // 
-            this.btn_Clear.Location = new System.Drawing.Point(394, 231);
+            this.btn_Clear.Location = new System.Drawing.Point(525, 284);
+            this.btn_Clear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Clear.Name = "btn_Clear";
-            this.btn_Clear.Size = new System.Drawing.Size(75, 23);
+            this.btn_Clear.Size = new System.Drawing.Size(100, 28);
             this.btn_Clear.TabIndex = 6;
             this.btn_Clear.Text = "Clear";
             this.btn_Clear.UseVisualStyleBackColor = true;
@@ -103,30 +111,46 @@
             // rb_US
             // 
             this.rb_US.AutoSize = true;
-            this.rb_US.Location = new System.Drawing.Point(163, 129);
+            this.rb_US.Location = new System.Drawing.Point(217, 159);
+            this.rb_US.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rb_US.Name = "rb_US";
-            this.rb_US.Size = new System.Drawing.Size(75, 17);
+            this.rb_US.Size = new System.Drawing.Size(96, 21);
             this.rb_US.TabIndex = 7;
             this.rb_US.TabStop = true;
             this.rb_US.Text = "US Dollars";
             this.rb_US.UseVisualStyleBackColor = true;
+            this.rb_US.CheckedChanged += new System.EventHandler(this.rb_US_CheckedChanged);
             // 
             // rb_Yen
             // 
             this.rb_Yen.AutoSize = true;
-            this.rb_Yen.Location = new System.Drawing.Point(163, 164);
+            this.rb_Yen.Location = new System.Drawing.Point(217, 202);
+            this.rb_Yen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rb_Yen.Name = "rb_Yen";
-            this.rb_Yen.Size = new System.Drawing.Size(93, 17);
+            this.rb_Yen.Size = new System.Drawing.Size(120, 21);
             this.rb_Yen.TabIndex = 8;
             this.rb_Yen.TabStop = true;
             this.rb_Yen.Text = "Japanese Yen";
             this.rb_Yen.UseVisualStyleBackColor = true;
             // 
+            // rb_Ringgit
+            // 
+            this.rb_Ringgit.AutoSize = true;
+            this.rb_Ringgit.Location = new System.Drawing.Point(217, 237);
+            this.rb_Ringgit.Margin = new System.Windows.Forms.Padding(4);
+            this.rb_Ringgit.Name = "rb_Ringgit";
+            this.rb_Ringgit.Size = new System.Drawing.Size(140, 21);
+            this.rb_Ringgit.TabIndex = 9;
+            this.rb_Ringgit.TabStop = true;
+            this.rb_Ringgit.Text = "Malaysian Ringgit";
+            this.rb_Ringgit.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 325);
+            this.ClientSize = new System.Drawing.Size(792, 400);
+            this.Controls.Add(this.rb_Ringgit);
             this.Controls.Add(this.rb_Yen);
             this.Controls.Add(this.rb_US);
             this.Controls.Add(this.btn_Clear);
@@ -136,6 +160,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -154,6 +179,7 @@
         private System.Windows.Forms.Button btn_Clear;
         private System.Windows.Forms.RadioButton rb_US;
         private System.Windows.Forms.RadioButton rb_Yen;
+        private System.Windows.Forms.RadioButton rb_Ringgit;
     }
 }
 
