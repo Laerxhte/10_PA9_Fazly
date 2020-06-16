@@ -119,7 +119,6 @@
             this.rb_US.TabStop = true;
             this.rb_US.Text = "US Dollars";
             this.rb_US.UseVisualStyleBackColor = true;
-            this.rb_US.CheckedChanged += new System.EventHandler(this.rb_US_CheckedChanged);
             // 
             // rb_Yen
             // 

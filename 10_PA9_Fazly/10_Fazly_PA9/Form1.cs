@@ -23,21 +23,27 @@ namespace _10_Fazly_PA9
             {
                 double amount, converted, usRate = 0.74, jpRate = 81.97, ringgitRate = 3.01;
                 amount = double.Parse(txt_Amount.Text);
-                if (rb_US.Checked)
+                if (!(amount < 0))
                 {
-                    converted = amount * usRate;
-                    txt_Converted.Text = converted.ToString();
+                    if (rb_US.Checked)
+                    {
+                        converted = amount * usRate;
+                        txt_Converted.Text = converted.ToString();
+                    }
+                    else if (rb_Yen.Checked)
+                    {
+                        converted = amount * jpRate;
+                        txt_Converted.Text = converted.ToString();
+                    }
+                    else if (rb_Ringgit.Checked)
+                    {
+                        converted = amount * ringgitRate;
+                        txt_Converted.Text = converted.ToString();
+                    } 
                 }
-                else if (rb_Yen.Checked)
+                else
                 {
-                    converted = amount * jpRate;
-                    txt_Converted.Text = converted.ToString();
-                }
-
-                else if (rb_Ringgit.Checked)
-                {
-                    converted = amount * ringgitRate;
-                    txt_Converted.Text = converted.ToString();
+                    txt_Converted.Text = "Cannot convert negative amount";
                 }
             }
             catch (FormatException)
@@ -53,11 +59,6 @@ namespace _10_Fazly_PA9
             rb_US.Checked = false;
             rb_Yen.Checked = false;
             rb_Ringgit.Checked = false;
-        }
-
-        private void rb_US_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
